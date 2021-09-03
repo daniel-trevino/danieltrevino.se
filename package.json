@@ -33,7 +33,7 @@
     "gatsby-plugin-typescript": "^2.0.15",
     "gatsby-plugin-typography": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.28",
-    "gatsby-source-prismic": "^2.3.0-alpha.3",
+    "gatsby-source-prismic": "v2.3.0-alpha.3",
     "gatsby-transformer-sharp": "^2.1.19",
     "lodash": "^4.17.13",
     "prismic-reactjs": "^1.1.1",
