@@ -1,0 +1,46 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: date-fns
+    versions:
+    - 2.16.1
+    - 2.17.0
+    - 2.18.0
+    - 2.19.0
+    - 2.20.0
+    - 2.20.1
+    - 2.20.2
+    - 2.20.3
+    - 2.21.0
+  - dependency-name: gatsby-plugin-typescript
+    versions:
+    - 2.11.0
+    - 2.12.0
+  - dependency-name: gatsby-transformer-sharp
+    versions:
+    - 2.11.0
+    - 2.12.0
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 3.9.0
+  - dependency-name: gatsby-plugin-typography
+    versions:
+    - 2.11.0
+  - dependency-name: gatsby-plugin-robots-txt
+    versions:
+    - 1.5.5
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: "@types/react-helmet"
+    versions:
+    - 6.1.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
